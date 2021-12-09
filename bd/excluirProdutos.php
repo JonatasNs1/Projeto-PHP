@@ -6,7 +6,7 @@
 
  
      $conexao = conexaoMysql();
-
+    
      if($ex = mysqli_query($conexao, $sql)){
          return true;
      }else{
