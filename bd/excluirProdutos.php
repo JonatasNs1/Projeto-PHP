@@ -9,6 +9,7 @@
 
      if($ex = mysqli_query($conexao, $sql)){
          return true;
+        
      }else{
          return false;
      }

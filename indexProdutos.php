@@ -22,6 +22,7 @@
             $valor= $_SESSION['produtos']['valor'];
             $promocao = $_SESSION['produtos']['promocao'];
             $descricao = $_SESSION['produtos']['descricao'];
+           
             $foto = $_SESSION['produtos'] ['foto'];
             $idCategorias =$_SESSION['produtos'] ['idcategorias'];
             $nomeCategorias =$_SESSION['produtos'] ['categoria']; 
