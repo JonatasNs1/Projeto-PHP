@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
     header('Access-Control-Allow-Origin: *');
     header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS'); 
@@ -23,6 +24,9 @@
                 require_once('categoriasApi/index.php');
                 break;        
     }
+=======
+    require_once('produtosApi/index.php');
+>>>>>>> f62609ee7497847682b8fe3a88a086e78dcedf26
 
 
 ?>
