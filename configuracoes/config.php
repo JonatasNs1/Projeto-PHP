@@ -7,13 +7,13 @@ const database =('dbCrud');
 
 
 
-// define ('SRC', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/jonatas/admin/'); 
-define ('SRC', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/admin/'); 
+define ('SRC', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/jonatas/admin/'); 
+// define ('SRC', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/admin/'); 
 
-// define ('SRCH', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/jonatas/admin/');
-define ('SRCH', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/admin/');
+define ('SRCH', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/jonatas/admin/');
+// define ('SRCH', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/admin/');
 
-define ('SRCP', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/admin/');
+define ('SRCP', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/jonatas/admin/');
 
 const BD_MSG_EXCLUIR = "
 <script> 
@@ -31,8 +31,8 @@ const MAX_CARACTERES = "Não foi possivel fazer o cadastro, coloque um nome abai
 
 // define ('SRC', $_SERVER['DOCUMENT_ROOT'].'/usuarios/usuarios/'); 
 
-// define ('SRCO', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/jonatas/admin/'); 
-define ('SRCO', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/admin/'); 
+define ('SRCO', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/jonatas/admin/'); 
+// define ('SRCO', $_SERVER['DOCUMENT_ROOT'].'/ds2t20212/admin/'); 
 
 
 const BD_MSG_EXCLUIR_USUARIOS = "

@@ -2,7 +2,7 @@
 
     // require_once('bd/listarCategorias.php');
     
-require_once(SRC . 'bd/listarCategorias.php');
+    require_once(SRC . 'bd/listarCategorias.php');
     function exibir(){
         
         $dadosListar =  listarCategorias();
@@ -11,7 +11,7 @@ require_once(SRC . 'bd/listarCategorias.php');
     }
 
 
-    
+      
 function criarArrayCategorias($objeto)
 {
     $cont = (int) 0;
@@ -51,6 +51,12 @@ function criarJSONCategorias($arrayDados)
          return false;
     }
 }
+
+function buscarCategorias($id){
+    $dados = buscaCategorias($id);
+    return $dados;
+}
+
 
 
   
